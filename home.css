@@ -1,0 +1,138 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgba(0, 0, 0, .95);
+    font-size: 16px;
+    padding: 3rem 0;
+    font-family: 'Montserrat Alternates', sans-serif;
+    color: #fff;
+    width: 100%;
+    height: 100vh;
+}
+
+.nav-container {
+    padding: 1rem 10rem;
+    display: flex;
+    justify-content: space-between;
+    letter-spacing: .05rem;
+}
+
+#logo-img {
+    height: 5rem ;
+
+}
+
+.nav-container ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    font-weight: 300;
+    font-size: .9rem;
+}
+
+#nav-link {
+    margin-right: 4rem;
+}
+.nav-container ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.announcementbar {
+    background-color: rgba(255, 255, 255, .05);
+    padding: 1rem 10rem;
+    text-align: center;
+    letter-spacing: .05rem;
+    margin-bottom: 6rem;
+} 
+
+.announcementbar h1 {
+    font-size: .9rem;
+    font-weight: 200;
+}
+
+.announcementbar h1 span {
+    color: #D9CC70;
+    font-weight: 500;
+}
+
+.main-container {
+    padding: 1rem 10rem;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: .05rem;
+}
+
+.main-container h1 {
+    font-size: 4rem;
+    color: #D9CC70;
+    padding: .5rem 0;
+}
+
+.main-container p {
+    padding: .5rem 22.5rem 2.5rem 22.5rem;
+    line-height: 160%;
+    font-weight: 200;
+    font-size: 1.25rem;
+}
+
+.newsletter {
+    text-align: center;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 8rem;
+    transform: scale(1.25);
+}
+
+.newsletter input{
+    border-top-left-radius: 1.5rem;
+    border-bottom-left-radius: 1.5rem;
+    border: none;
+    outline: none;
+    background-color: #1C202D;
+    padding: 1rem 4.80rem;
+    color: white;
+    letter-spacing: .05rem;
+}
+
+.newsletter input::placeholder {
+    font-size: .9rem;
+    letter-spacing: .05rem;
+    color: rgba(255, 255, 255, 20%);
+    font-weight: 200;
+    cursor: pointer;
+}
+
+
+.newsletter button {
+    font-size: .9rem;
+    padding: .99rem 2.80rem;
+    letter-spacing: .05rem;
+    border-top-right-radius: 1.5rem;
+    border-bottom-right-radius: 1.5rem;
+    border: none;
+    outline: none;
+    background-color: #192555;
+    color: #fff;
+    cursor: pointer;
+}
+
+
+.template-container {
+    text-align: center;
+}
+
+.template-item {
+    margin-bottom: 8rem;
+}
+
+.template-item:hover {
+    transform: scale(1.025);
+    transition: .4s ease-in-out;
+    cursor: pointer;
+}
+
