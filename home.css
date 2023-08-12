@@ -42,6 +42,10 @@ body {
     color: white;
 }
 
+#logo-img {
+    transform: scale(.50);
+}
+
 .announcementbar {
     background-color: rgba(255, 255, 255, .05);
     padding: 1rem 10rem;
